@@ -4,6 +4,12 @@
   --accent: #8a2be2;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
@@ -15,7 +21,7 @@ body {
 .wrap {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 16px max(12px, env(safe-area-inset-right)) 16px max(12px, env(safe-area-inset-left));
 }
 
 h1 {
@@ -76,7 +82,8 @@ h1 {
   border-radius: 8px;
   padding: 12px;
   background: rgba(255, 255, 255, 0.02);
-  height: 70vh;
+  height: 70dvh;
+  min-height: 360px;
   overflow: auto;
   white-space: pre;
   word-break: normal;
@@ -121,3 +128,53 @@ button:disabled {
   cursor: not-allowed;
 }
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: clamp(24px, 5vw, 34px);
+    padding-bottom: 14px;
+  }
+
+  .titleRow {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 8px;
+  }
+
+  #countdown {
+    font-size: clamp(17px, 4.2vw, 24px);
+    padding-bottom: 0;
+    text-align: left;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrap {
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+
+  #term {
+    height: 62dvh;
+    min-height: 300px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  input[type="text"],
+  button {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  button {
+    padding: 10px 12px;
+  }
+}
