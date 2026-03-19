@@ -1,0 +1,124 @@
+{
+  "philo_lit_quiz": [
+    {
+      "question": "In Plato's Allegory of the Cave, what do the prisoners mistake for reality?",
+      "choices": ["A sunlit garden", "A map of the city", "Shadows on a wall", "Their own reflections"],
+      "answer_index": 2,
+      "explanation": "They mistake shadows for reality."
+    },
+    {
+      "question": "Which work is commonly associated with the term 'social contract'?",
+      "choices": ["The Republic", "Leviathan", "The Odyssey", "Metamorphosis"],
+      "answer_index": 1,
+      "explanation": "Hobbes is strongly tied to social contract ideas."
+    },
+    {
+      "question": "In Franz Kafka's novel 'The Metamorphosis', what does Gregor Samsa wake up as?",
+      "choices": ["A stray dog", "A talking bird", "A ghost", "A cockroach"],
+      "answer_index": 3,
+      "explanation": "Gregor Samsa wakes up transformed into a cockroach."
+    },
+    {
+      "question": "Which Dostoevsky's novel the quote 'The mystery of human existence lies \nnot in just staying alive, but in finding something to live for.' is this from?",
+      "choices": ["Crime and Punishment", "The Brothers Karamazov", "Notes from Underground", "The Idiot"],
+      "answer_index": 1,
+      "explanation": "That line is from 'The Brothers Karamazov' (often cited from the 'Grand Inquisitor' chapter)."
+    },
+    {
+      "question": "In Tolstoy's 'War and Peace', what eventually happens in Pierre and Natasha's relationship?",
+      "choices": ["They eventually marry and start a family", "They stay close friends but never marry", "Natasha marries Prince Andrei instead", "Pierre becomes a priest and abandons her"],
+      "answer_index": 0,
+      "explanation": "In the epilogue, Pierre and Natasha are together as husband and wife."
+    },
+    {
+      "question": "Nietzsche's 'eternal recurrence' is often interpreted as the idea that...",
+      "choices": ["The universe resets to the same point every day", "All events repeat endlessly, returning in the same pattern", "Only good deeds are repeated in heaven", "Nothing truly happens more than once, ever"],
+      "answer_index": 1,
+      "explanation": "Eternal recurrence suggests an infinite return of events, \nemphasizing how we should live given that possibility."
+    },
+    {
+      "question": "According to Marcus Aurelius, what is the main thing you have control over?",
+      "choices": ["Your judgments and your choices", "Other people's opinions", "Whether events happen on schedule", "The outcome of wars"],
+      "answer_index": 0,
+      "explanation": "A core Stoic idea is focusing on what is up to you: thoughts and actions."
+    },
+    {
+      "question": "Stoics typically say that happiness depends most on...",
+      "choices": ["External luck and circumstances", "Social status and recognition", "Living according to virtue", "Avoiding any discomfort at all costs"],
+      "answer_index": 2,
+      "explanation": "For Stoics, virtue is the key to a good life, even when external conditions are difficult."
+    },
+    {
+      "question": "According to compatibilists...",
+      "choices": ["We act according to our own motives and reasons, even if events are causally determined", "Determinism means no one could ever choose differently, so free will is not real", "Free will requires totally uncaused, random choices", "Free will only exists if God directly causes each decision"],
+      "answer_index": 0,
+      "explanation": "Compatibilism (Hume-style) treats free will as responsibility and agency: \nacting from your reasons and character, even within determinism."
+    }
+  ],
+  "true_love_test": [
+
+    {
+      "category": "💕🤖 A PERFECT FIRST DATE 🤖💕\n",
+      "question": "You just rescued the princess, and you both need a place to chat and catch up. Where do you go?",
+      "choices": [
+        "A loud club - full of eccentric kids (plus one adult who definitely doesn't belong)",
+        "A gas station — romantic lighting, unlimited hot dogs, and the spinning nacho cheese machine",
+        "A Starbucks — they spell your names wrong so you can declare war on the barista",
+        "A nice, empty, and classy jazz venue - in a very much forgotten alleyway"
+      ],
+      "answer_index": 3,
+      "explanation": "You two have a lot to catch up on — maybe you'll even run into LoFi Girl there."
+    },    
+    {
+      "category": "💕🤖 MUSIC TO OUR EARS 🤖💕\n",
+      "question": "It's 2AM and the princess can't sleep. What's playing on her cursed enchanted radio?",
+      "choices": ["A Taylor Swift breakup anthem", "A recorder cover of Baby Shark", "Pink Floyd's Dark Side of the Moon", "Elevator music from a haunted mall"],
+      "answer_index": 2,
+      "explanation": "Dark Side of the Moon — she doesn't fully understand it, but she feels it in her soul."
+    },
+    {
+      "category": "💕🤖 MIDNIGHT PLANS 🤖💕\n",
+      "question": "Pick the plan she’d pretend is 'just casual' but secretly loves.",
+      "choices": ["Sunrise brunch in the woods with philosophical talk", "Rowdy karaoke until ears bleed", "Wandering around aimlessly like hobos with no snacks", "A secret library where you can make out between the bookshelves"],
+      "correct_indices": [0, 3],
+      "explanation": "Either a library adventure or a sunrise brunch vibe nice and fun."
+    },
+    {
+      "category": "💕🤖 COZY AT HOME 🤖💕\n",
+      "question": "It's late, you both worked hard all day, and you just want to relax. What do you do?",
+      "choices": [
+        "Do a Kubrick marathon and cuddle on the couch",
+        "Heat up the leftovers and play GTA6 until sunrise",
+        "Spend the night talking about the meaning of life over wine while looking at the stars",
+        "Order food in and plan how to take over the worldwould  together"
+      ],
+      "correct_indices": [0, 1, 2, 3],
+      "explanation": "All alternatives are perfect. Life is good, isn't it?"
+    },
+    {
+      "category": "💕🤖 COZY AT HOME II 🤖💕\n",
+      "question": "You both decided to revive a World of Warcraft session. Which character does the princess choose?",
+      "choices": [
+        "Alliance Mage Human",
+        "Horde Hunter Troll",
+        "Night Elf Druid",
+        "Undead Warlock"
+      ],
+      "correct_indices": [1],
+      "explanation": "For the Horde!"
+    },
+    {
+      "category": "💕🤖 THE PRIZE 🤖💕\n",
+      "question": "How good is the princess' kiss?",
+      "choices": [
+        "Astonishingly Perfect",
+        "SpOOktacular",
+        "Extra-extra-ordinary",
+        "Un-REAL-ievable"
+      ],
+      "correct_indices": [0, 1, 2, 3],
+      "explanation": "I mean, obviously."
+    }
+  ]
+}
+
